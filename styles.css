@@ -321,6 +321,12 @@ h3 {
     #081014;
 }
 
+.portfolio-card--feature:nth-child(2):not(:hover) {
+  background:
+    linear-gradient(135deg, rgba(54, 214, 255, 0.16), rgba(255, 182, 61, 0.08)),
+    #081014;
+}
+
 .portfolio-card__type {
   margin-bottom: 18px;
   color: var(--cyan);
