@@ -96,6 +96,14 @@ a {
   font-weight: 800;
 }
 
+.brand__portrait {
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+  border: 1px solid rgba(54, 214, 255, 0.42);
+  opacity: 0.86;
+}
+
 .brand strong {
   font-size: 0.92rem;
   text-transform: uppercase;
