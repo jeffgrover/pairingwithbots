@@ -2,7 +2,8 @@ const signals = [
   "AI does not replace senior engineers. It rewards the dangerous ones.",
   "The bottleneck moved from typing code to deciding what code deserves to exist.",
   "Fast is useful. Fast plus judgment is unfair.",
-  "An LLM can write code. A veteran knows when to make it stop."
+  "An LLM can write code. A veteran knows when to make it stop.",
+  "Less nag, more RAG!"
 ];
 
 const transcript = [

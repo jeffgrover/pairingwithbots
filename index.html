@@ -8,7 +8,7 @@
       name="description"
       content="Jeff Grover is a veteran software engineer and AI coding consultant helping small teams turn AI tools into production software."
     >
-    <link rel="stylesheet" href="styles.css?v=20260614-portfolio-grid">
+    <link rel="stylesheet" href="styles.css?v=20260624-portfolio-expanded">
   </head>
   <body>
     <main>
@@ -87,7 +87,8 @@
           <h2>Recent artifacts, not just claims.</h2>
           <p>
             A few public trails from the current workbench: AI evaluation, MCP usability testing,
-            browser automation, local LLM infrastructure, and writing about the strange new practice of pairing with machines.
+            network telemetry, browser automation, embedded devices, local LLM infrastructure,
+            and writing about the strange new practice of pairing with machines.
           </p>
         </div>
         <div class="portfolio-grid">
@@ -109,10 +110,22 @@
             <p>A headed Playwright crawler for first-pass UI exploration and practical web inspection.</p>
             <span class="portfolio-card__link">View repository</span>
           </a>
+          <a class="portfolio-card" href="https://github.com/jeffgrover/traffic">
+            <span class="portfolio-card__type">GitHub / Rust network scanner</span>
+            <h3>What is really happening on your home network?</h3>
+            <p>Rust packet capture, Nmap device enrichment, SQLite persistence, and a Leptos dashboard.</p>
+            <span class="portfolio-card__link">View repository</span>
+          </a>
           <a class="portfolio-card" href="https://github.com/jeffgrover/b70-setup">
             <span class="portfolio-card__type">GitHub / Local AI stack</span>
             <h3>How fast can you push a brand-new Intel Arc Pro B70 GPU?</h3>
             <p>Local LLM stack on Intel Arc Pro B70: llama.cpp SYCL, llama-swap, opencode, and pi.</p>
+            <span class="portfolio-card__link">View repository</span>
+          </a>
+          <a class="portfolio-card" href="https://github.com/jeffgrover/pico-telbot">
+            <span class="portfolio-card__type">GitHub / Embedded Telegram bot</span>
+            <h3>Can a tiny $15 board help people check in on each other?</h3>
+            <p>A Raspberry Pi Pico W wellness bot that pings people and alerts a buddy if they miss.</p>
             <span class="portfolio-card__link">View repository</span>
           </a>
           <a class="portfolio-card" href="https://www.linkedin.com/in/jeffgrover/">
@@ -188,6 +201,6 @@
         </div>
       </section>
     </main>
-    <script src="script.js"></script>
+    <script src="script.js?v=20260624-rag"></script>
   </body>
 </html>

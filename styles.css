@@ -298,13 +298,14 @@ h3 {
 }
 
 .portfolio-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .portfolio-card {
   position: relative;
   display: flex;
   flex-direction: column;
+  grid-column: span 2;
   color: var(--ink);
   transition: background 160ms ease, transform 160ms ease;
 }
@@ -315,7 +316,7 @@ h3 {
 }
 
 .portfolio-card--feature {
-  grid-column: span 2;
+  grid-column: span 3;
   background:
     linear-gradient(135deg, rgba(54, 214, 255, 0.16), rgba(255, 182, 61, 0.08)),
     #081014;
@@ -455,6 +456,7 @@ pre {
     grid-template-columns: 1fr;
   }
 
+  .portfolio-card,
   .portfolio-card--feature {
     grid-column: auto;
   }
